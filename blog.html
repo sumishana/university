@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>University Website Design</title>
+ </head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+             <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+             </div>
+             <i class="fa fa-bars" onclick="showMenu()" ></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2022</h1>
+    </section>
+
+
+
+
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left"> 
+                <img src="/images/certificate.jpg">
+                <h2>Our Certificate & Online Programs For 2022</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Fugit perspiciatis explicabo mollitia nisi reprehenderit 
+                    quo excepturi quae! Tempore cum delectus exercitationem? 
+                    Omnis quidem tempora, id officia necessitatibus quaerat 
+                    repudiandae et, at, ad quisquam aut dicta veritatis delectus 
+                    cum quam nihil dolore! Corrupti culpa ipsum voluptates? Ut 
+                    rerum id nesciunt dolores.</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Nam ea blanditiis quis ducimus debitis magnam voluptatum nihil 
+                        recusandae, architecto hic earum consequuntur molestiae provident at 
+                        doloremque error voluptates suscipit rerum! Similique exercitationem 
+                        officiis illo unde odit ipsa facere dolorum corporis nobis alias eaque, 
+                        commodi, voluptate atque corrupti ullam dolor optio.</p>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+                            elit. Quidem iure hic delectus ex voluptas pariatur 
+                            recusandae magni mollitia, cum incidunt molestias blanditiis 
+                            non aliquid aut numquam et ratione soluta! Deleniti fugiat iste 
+                            obcaecati illo non sequi laborum porro beatae molestias ipsum 
+                            odit, debitis error eaque modi corporis, itaque iure nam quibusdam 
+                            rem magnam possimus animi a at voluptatem. Ut culpa vero ex vitae dicta. 
+                            Alias ex amet, dolorem dolores doloremque facilis cum expedita quos 
+                            aliquam eaque eveniet aut quod facere? Officiis, similique obcaecati, 
+                            distinctio accusamus, aperiam perferendis libero explicabo adipisci 
+                            sapiente voluptate omnis incidunt! Qui ab dolor excepturi ducimus! Enim.</p>
+                            <br>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque numquam 
+                                quae distinctio assumenda quam suscipit eum voluptas harum commodi asperiores 
+                                in, minima quas magni esse fugit obcaecati. Qui, asperiores accusamus odit 
+                                voluptatibus esse, dicta excepturi culpa fugiat, minus porro natus? Dicta 
+                                soluta sed dolor velit, optio excepturi nemo eveniet reiciendis.
+                            </p>
+
+
+
+                            <div class="comment-box">
+                                <h3>Leave a comment</h3>
+                                <form class="comment-form">
+                                    <input type="text" placeholder="Enter Name">
+                                    <input type="email" placeholder="Enter Email">
+                                    <textarea rows="5" placeholder="Your comment"
+                                    ></textarea>
+                                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                                </form>
+
+                            </div>
+
+            </div>
+            <div class="blog-right"> 
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+   
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque iste aliquid illum maiores nam, 
+            alias cupiditate similique repellendus sint minima, eligendi cum hic illo, eius amet a quibusdam 
+            autem impedit porro expedita? Exercitationem eaque facilis dolor? </p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made With <i class="fa fa-heart-o"></i>Easy Tutorials</p>
+    </section>
+
+
+     
+
+
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
